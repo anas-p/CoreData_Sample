@@ -89,11 +89,13 @@ class AddTeamViewController: UIViewController, UITableViewDataSource, UITableVie
             if let empList = self.employeeList{
                 cell.textLabel?.text = empList[indexPath.row].emp_name!
             }
+            cell.accessoryType = .none
         }
         else{
             if let teams = self.teamList{
                 cell.textLabel?.text = teams[indexPath.row].team_name!
             }
+            cell.accessoryType = .disclosureIndicator
         }
         return cell
     }
@@ -109,6 +111,7 @@ class AddTeamViewController: UIViewController, UITableViewDataSource, UITableVie
                 if let teamList = self.teamList, let empList = teamList[indexPath.row].employees{
                     vc.flag = 0
                     vc.employeeList = Array(empList) as? Array<Tbl_employee>
+                    vc.title = teamList[indexPath.row].team_name!
                     self.navigationController?.pushViewController(vc, animated: true)
                 }
             }

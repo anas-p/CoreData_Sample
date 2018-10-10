@@ -69,6 +69,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         if let empList = self.employeeList{
             cell.textLabel?.text = empList[indexPath.row].emp_name!
         }
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
     
@@ -80,6 +81,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TeamDetailsViewController") as? TeamDetailsViewController{
                     vc.flag = 1
                     vc.teamList = Array(teamList) as? [Tbl_team]
+                    vc.title = "Team"
                     self.navigationController?.pushViewController(vc, animated: true)
                 }
             }

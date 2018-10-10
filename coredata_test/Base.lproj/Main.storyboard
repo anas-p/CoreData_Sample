@@ -48,13 +48,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy6-LD-AV1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employee List:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy6-LD-AV1">
                                 <rect key="frame" x="16" y="194" width="120" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="0Dw-C5-gFp"/>
                                     <constraint firstAttribute="width" constant="120" id="EmD-SO-C5g"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -170,13 +170,13 @@
                                     <outlet property="delegate" destination="0h4-NR-wOh" id="uxl-Hg-X7u"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select employees:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3T-EA-ZNm">
-                                <rect key="frame" x="16" y="194" width="146" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Employees:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3T-EA-ZNm">
+                                <rect key="frame" x="16" y="194" width="159" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Isn-VS-2OG"/>
-                                    <constraint firstAttribute="width" constant="146" id="cYv-Bl-vaC"/>
+                                    <constraint firstAttribute="width" constant="159" id="cYv-Bl-vaC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -197,7 +197,7 @@
                                     <constraint firstAttribute="height" constant="21" id="XTv-np-1xJ"/>
                                     <constraint firstAttribute="width" constant="169" id="x9N-oT-6ZX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -234,7 +234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMt-fU-UAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1428" y="139"/>
+            <point key="canvasLocation" x="1428" y="138.98050974512745"/>
         </scene>
         <!--TeamDetailsViewController-->
         <scene sceneID="XII-nx-adc">
