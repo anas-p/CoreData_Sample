@@ -2,4 +2,4 @@
 
 Explained Many to Many relationship
 
-<img src="https://github.com/anasamanp/CoreData_Sample/blob/master/CoreData_Sample.gif" width="269" height="533" />
+<img src="https://github.com/anasamanp/CoreData_Sample/blob/master/Coredata_sampleVideo.gif" width="269" height="533" />
