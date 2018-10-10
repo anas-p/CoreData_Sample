@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Tbl_employee" representedClassName="Tbl_employee" syncable="YES">
+        <attribute name="emp_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="team" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tbl_team" inverseName="employees" inverseEntity="Tbl_team" syncable="YES"/>
+    </entity>
+    <entity name="Tbl_team" representedClassName="Tbl_team" syncable="YES">
+        <attribute name="team_name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employees" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Tbl_employee" inverseName="team" inverseEntity="Tbl_employee" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Tbl_employee" positionX="-144" positionY="-27" width="128" height="73"/>
+        <element name="Tbl_team" positionX="117" positionY="-81" width="128" height="73"/>
+    </elements>
+</model>
